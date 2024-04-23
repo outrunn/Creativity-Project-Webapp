@@ -1,0 +1,40 @@
+:root{
+    --orange: #FF6B35;
+    --peach: #F7C59F;
+    --beige: #EFEFDO;
+    --blue: #004E89;
+    --lightblue: #1A659E;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.choicebox{
+    border: solid black 10px;
+    height: auto;
+    width: 90%;
+    border-radius: 35px;
+}
+.item{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    border-radius: 3px;
+}
+body >h1{
+    font-weight: 900;
+    font-size: 4rem;
+    margin: 1rem;
+}
+.item > img{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    height: 100px;
+}
